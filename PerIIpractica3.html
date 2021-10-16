@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title> Portafolio | Practica III </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Header de la pagina web -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-greendark" id="ftco-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><i> <img src="images/UNICAES_Logo2.png" width="40%" alt=""> </i> UNICAES <br></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+          </button>
+          <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active"><a href="index.html" class="nav-link"> Inicio </a></li>
+              <li class="nav-item"><a href="portafolio.html" class="nav-link"> Portafolio </a></li>
+              <li class="nav-item"><a href="documentos.html" class="nav-link"> Documentos </a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Final del header -->
+    <main>
+        <section>
+            <div class="hero-wrap hero-wrap-2" style="background-image: url('images/daw.jpg'); background-attachment:fixed;">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+                        <div class="col-md-8 ftco-animate text-center">
+                            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span class="mr-2"><a href="portafolio.html"> Portafolio </a></span> <span> Practica III</span></p>
+                            <h1 class="mb-3 bread"> Practica III </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ftco-section bg-light">
+            <div class="container">
+                <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section ftco-animate text-center">
+                  <h2 class="mb-4 wed"> Ir a: </h2>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4 mb-sm-4 ftco-animate">
+                      <div class="staff">
+                          <div class="d-flex mb-4">
+                              <div class="img" style="background-image: url(images/practica-1-2-638.webp);"></div>
+                              <div class="info ml-4">
+                                  <h3><a href="PerIIpractica1.html">PRACTICA I </a></h3>
+                                  <span class="position"> Aplicacion de ASP.NET del Tipo Web API</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 mb-sm-4 ftco-animate">
+                      <div class="staff">
+                          <div class="d-flex mb-4">
+                              <div class="img" style="background-image: url(images/2.PNG);"></div>
+                              <div class="info ml-4">
+                                  <h3><a href="PerIIpractica2.html"> PRACTICA II </a></h3>
+                                  <span class="position"> Aplicacion de ASP.NET del Tipo Web API </span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 mb-sm-4 ftco-animate">
+                      <div class="staff">
+                          <div class="d-flex mb-4">
+                              <div class="img" style="background-image: url(images/practica-3-2-638.webp);"></div>
+                              <div class="info ml-4">
+                                  <h3><a href="PerIIpractica3.html"> PRACTICA III </a></h3>
+                                  <span class="position"> Aplicacion de ASP.NET del Tipo Web API </span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <section class="ftco-section">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-md-12 pl-md-5 ftco-animate">
+                        <h2 class="mb-4 wed text-center"> Cambios realizados en el repositorio (Métodos principales) </h2>
+                        <h3 class="wed"> Usuarios </h3>
+                        <p><b> Modelo: </b></p>
+                        <center> <img src="images/modUser.png"><p></p> </center>
+                        <p><b> Controlador: </b></p>
+                        <p> •	Listado de toda la tabla </p>
+                        <p> Para el controlador lo que se realiza es colorar el tipo de consulta que es con [HttpGet] y se coloca la ruta a utilizar luego se crea la clase donde se crea una variable que contendrá los datos de la consulta y los comparara en el IF si esta vacía o no. Dentro de la consulta con el FROM se coloca un nombre de una variable que contendrá el contexto “e” para poder extraer dato por datos y se coloca un “JOIN” para unir la tabla y no mostrar únicamente el ID de la llave foránea, luego para hacer el llamado a los datos de la otra tabla se realiza un “SELECT” nuevo donde se agregan los campos que serán la nueva consulta. </p>
+                        <center> <img src="images/genUser.png" width="70%"><p></p> </center>
+                        <p> •	Búsqueda por ID. </p>
+                        <p> Para el método por ID no cambia mucho al método anterior, únicamente un “WHERE” que comprara el dato que se le esta enviando y muestra el dato si este existe. </p>
+                        <center> <img src="images/IdUser.png" width="70%"><p></p> </center>
+                        <p> •	Insertar un nuevo registro. </p>
+                        <p> Para insertar datos se especifica que los datos serán dados desde el cuerpo de la pagina y se coloca la referencia a que se enviaran los datos obtenidos (Serán insertados a los datos del modelo que serán enviados a la base de datos posteriormente), luego se crea una nueva variable que contendrá los datos de la consulta realizada en la misma variable y que a su vez comparara si no existe un usuario con el mismo nombre, si existe este dará un error y si no insertara el dato sin ningún problema. </p>
+                        <center> <img src="images/InserUser.png" width="70%"><p></p> </center>
+                        <p> •	Modificar un registro existente. </p>
+                        <p> Para el siguiente método lo que se realiza es colocar la ruta principal y darle el tipo de método, luego se especifica que se enviaran los datos del cuerpo y se llama la clase del modelo que contendrán los datos temporalmente y luego se realiza la consulta al igual que en el método de insertar y luego con el método “Modified” se insertaran los datos especificando anteriormente que campo de la comparación pertenece al de la base de datos. </p>
+                        <center> <img src="images/modUsers.png" width="70%"><p></p> </center>
+                        <p><b><i> Para los siguientes métodos de las otros controladores y modelos se realiza el mismo proceso sin excepción, por ello solo se muestran con imágenes el como quedaron y no con explicación.</i></b> </p>
+                        <h3 class="wed"> Carreras </h3>
+                        <p><b> Modelo: </b></p>
+                        <center> <img src="images/modelCarre.png" width="70%"><p></p> </center>
+                        <p><b> Controlador: </b></p>
+                        <p> •	Listado de toda la tabla </p>
+                        <center> <img src="images/genCarre.png" width="70%"><p></p> </center>
+                        <p> •	Búsqueda por ID. </p>
+                        <center> <img src="images/idCarre.png" width="70%"><p></p> </center>
+                        <p> •	Insertar un nuevo registro. </p>
+                        <center> <img src="images/inserCarre.png" width="70%"><p></p> </center>
+                        <p> •	Modificar un registro existente. </p>
+                        <center> <img src="images/modiCarre.png" width="70%"><p></p> </center>  
+                        <h3 class="wed"> Facultades </h3>
+                        <p><b> Modelo: </b></p>
+                        <center> <img src="images/faculModel.png" width="70%"><p></p> </center>
+                        <p><b> Controlador: </b></p>
+                        <p> •	Listado de toda la tabla </p>
+                        <center> <img src="images/faculGen.png" width="70%"><p></p> </center>
+                        <p> •	Búsqueda por ID. </p>
+                        <center> <img src="images/faculID.png" width="70%"><p></p> </center>
+                        <p> •	Insertar un nuevo registro. </p>
+                        <center> <img src="images/faculInse.png" width="70%"><p></p> </center>
+                        <p> •	Modificar un registro existente. </p>
+                        <center> <img src="images/faculModi.png" width="70%"><p></p> </center>  
+                        <h3 class="wed"> Reservas </h3>
+                        <p><b> Modelo: </b></p>
+                        <center> <img src="images/reserModel.png" width="70%"><p></p> </center>
+                        <p><b> Controlador: </b></p>
+                        <p> •	Listado de toda la tabla </p>
+                        <center> <img src="images/reserGen.png" width="70%"><p></p> </center>
+                        <p> •	Búsqueda por ID. </p>
+                        <center> <img src="images/reserID.png" width="70%"><p></p> </center>
+                        <p> •	Insertar un nuevo registro. </p>
+                        <center> <img src="images/reserInse.png" width="70%"><p></p> </center>
+                        <p> •	Modificar un registro existente. </p>
+                        <center> <img src="images/reserMod.png" width="70%"><p></p> </center>   
+                        <h3 class="wed">	Estados reservas </h3>
+                        <p><b> Modelo: </b></p>
+                        <center> <img src="images/estaModel.png" width="70%"><p></p> </center>
+                        <p><b> Controlador: </b></p>
+                        <p> •	Listado de toda la tabla </p>
+                        <center> <img src="images/estaGen.png" width="70%"><p></p> </center>
+                        <p> •	Búsqueda por ID. </p>
+                        <center> <img src="images/estaID.png" width="70%"><p></p> </center>
+                        <p> •	Insertar un nuevo registro. </p>
+                        <center> <img src="images/estaInse.png" width="70%"><p></p> </center>
+                        <p> •	Modificar un registro existente. </p>
+                        <center> <img src="images/estaMod.png" width="70%"><p></p> </center>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ftco-section bg-light">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-md-12 pl-md-5 ftco-animate">
+                        <h3 class="wed text-center"> Cambios realizados en el repositorio (Métodos de búsqueda “GET” considerados por el alumno) </h3>
+
+                        <p><b> •	Método de búsqueda de Usuarios filtrado por la carrera </b></p>
+                        <p>Para el controlador lo que se realiza es colorar el tipo de consulta que es con [HttpGet] y se coloca la ruta a utilizar luego se crea la clase donde se crea una variable que contendrá los datos de la consulta y los comparara en el IF si está vacía o no. Dentro de la consulta con el FROM se coloca un nombre de una variable que contendrá el contexto “e” para poder extraer dato por datos y se coloca un “JOIN” para unir la tabla y no mostrar únicamente el ID de la llave foránea, luego para hacer el llamado a los datos de la otra tabla se realiza un “SELECT” nuevo donde se agregan los campos que serán la nueva consulta. </p>
+                        <p> Dentro del mismo “SELECT” se coloca un “WHERE” donde nos preguntara los usuarios si la carrera es igual al valor que se le esta dando y nos filtrara los datos con respecto a la carrera. </p>
+                        <center> <img src="images/busquedaUser.png" width="70%"><p></p> </center>
+                        
+                        <p> <b> •	Método de búsqueda por el estado de la reserva </b> </p>
+                        <p> Para el controlador lo que se realiza es colorar el tipo de consulta que es con [HttpGet] y se coloca la ruta a utilizar luego se crea la clase donde se crea una variable que contendrá los datos de la consulta y los comparara en el IF si está vacía o no. Dentro de la consulta con el FROM se coloca un nombre de una variable que contendrá el contexto “e” para poder extraer dato por datos y se coloca un “JOIN” para unir la tabla y no mostrar únicamente el ID de la llave foránea, luego para hacer el llamado a los datos de la otra tabla se realiza un “SELECT” nuevo donde se agregan los campos que serán la nueva consulta. </p>
+                        <p> Dentro del mismo “SELECT” se coloca un “WHERE” donde nos preguntara las reservas si la el estado de la reserva es igual al valor que se le está dando y nos filtrara los datos con respecto a la carrera. </p>
+                        <center> <img src="images/busquedaEsta.png" width="70%"><p></p> </center>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ftco-section">
+            <div class="container">
+                <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section ftco-animate text-center">
+                  <h2 class="mb-4 wed"> Ir a: </h2>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-4 mb-sm-4 ftco-animate">
+                      <div class="staff">
+                          <div class="d-flex mb-4">
+                              <div class="img" style="background-image: url(images/practica-1-2-638.webp);"></div>
+                              <div class="info ml-4">
+                                  <h3><a href="PerIIpractica1.html">PRACTICA I </a></h3>
+                                  <span class="position"> Aplicacion de ASP.NET del Tipo Web API</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 mb-sm-4 ftco-animate">
+                      <div class="staff">
+                          <div class="d-flex mb-4">
+                              <div class="img" style="background-image: url(images/2.PNG);"></div>
+                              <div class="info ml-4">
+                                  <h3><a href="PerIIpractica2.html"> PRACTICA II </a></h3>
+                                  <span class="position"> Aplicacion de ASP.NET del Tipo Web API </span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 mb-sm-4 ftco-animate">
+                      <div class="staff">
+                          <div class="d-flex mb-4">
+                              <div class="img" style="background-image: url(images/practica-3-2-638.webp);"></div>
+                              <div class="info ml-4">
+                                  <h3><a href="PerIIpractica3.html"> PRACTICA III </a></h3>
+                                  <span class="position"> Aplicacion de ASP.NET del Tipo Web API </span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </section>
+      <section class="ftco-section-3 img" style="background-image: url(images/daw.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row d-md-flex justify-content-center">
+            <div class="col-md-9 about-video text-center">
+              <h2 class="ftco-animate"> Lo realizo en cada una de las guias se encuentra en el repositorio de GitHub: </h2>
+              <div class="video d-flex justify-content-center">
+                <p><a href="https://github.com/ErickSiguache/2017AS603" class="btn btn-primary px-4 py-3" target="_blank"> Ir a repositorio </a> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ftco-section bg-light">
+        <div class="container">
+          <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section ftco-animate text-center">
+              <h2 class="mb-4 wed"> Perfiles </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-sm-4 ftco-animate">
+              <div class="staff">
+                <div class="d-flex mb-4">
+                  <div class="img" style="background-image: url(images/github.png);"></div>
+                  <div class="info ml-4">
+                    <h3><a href="https://github.com/ErickSiguache" target="_blank"> ErickSiguache </a></h3>
+                    <span class="position"> Perfil de GitHub </span>
+                  </div>
+                </div>
+                <div class="text">
+                  <p> Dentro del perfil de GitHub se encuentra el repositorio de la materia con cada uno de los cambios realizados. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-sm-4 ftco-animate">
+              <div class="staff">
+                <div class="d-flex mb-4">
+                  <div class="img" style="background-image: url(images/go.png);"></div>
+                  <div class="info ml-4">
+                    <h3><a href="mailto:erick.aguilar3@catolica.edu.sv"> Erick A. Siguache </a></h3>
+                    <span class="position"> Correo electronico institucional </span>
+                    <p class="ftco-social d-flex">
+                    </p>
+                  </div>
+                </div>
+                <div class="text">
+                  <p> Es el correo electronico institucional de contacto y donde se almacenan los documentos de las guias.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(images/bg_2.jpg); background-attachment:fixed;">
+    	<div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+            <p> Desarrollo de Aplicaciones Web: <script>document.write(new Date().getFullYear());</script> | Erick Manuel Aguilar Siguache </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
